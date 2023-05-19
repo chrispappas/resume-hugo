@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main id="main" aria-roledescription="main" class="homepage">
+    {{- .Content }}
+</main>
+<aside id="sidebar">
+    {{ $image := resources.Get "img/chris-pappas.jpg" }}
+    {{ $image := $image.Fit "320x320" }}
+    {{ with $image }}
+        <figure>
+            <img src="{{ .RelPermalink}}" alt="Picture of Chris Pappas" />
+            <figcaption>This guy</figcaption>
+        </figure>
+
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="/resume/">chrispappas.dev/resume</a></li>
+            <li><a href="https://linkedin.com/in/chris-pappas">linkedin.com/in/chris-pappas</a></li>
+            <li><a href="https://github.com/chrispappas">github.com/chrispappas</a></li>
+        </ul>
+    {{ end }}
+</aside>
+{{ end }}

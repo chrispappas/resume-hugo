@@ -1,10 +1,10 @@
 ## Contact Info
 
+- **Winnipeg, Canada**
 - [linkedin.com/in/chris-pappas](https://linkedin.com/in/chris-pappas)
 - [github.com/chrispappas](https://github.com/chrispappas)
 - [chrispappas.dev](https://github.com/chrispappas)
 - [PDF Format Resume](Chris_Pappas_Resume_May_2023.pdf)
-- Based in Winnipeg, Canada
 
 ## Top Skills
 

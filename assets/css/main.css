@@ -156,6 +156,10 @@ aside ul {
     list-style: none;
 }
 
+#sidebar figure {
+    margin: 2rem auto;
+}
+
 #sidebar figure img {
     clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 }

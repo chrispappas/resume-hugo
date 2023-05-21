@@ -312,8 +312,8 @@ footer {
 }
 
 #preview {
-    width: 282px;
-    height: 200px;
+    width: 520px;
+    height: 270px;
     box-sizing: border-box;
     padding: 0.66em 1em;
     margin: 0 auto;
@@ -321,7 +321,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 #preview > div {
@@ -357,12 +357,12 @@ footer {
 }
 
 #preview #bottom figure figcaption {
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: var(--font-accent);
 }
 
 #preview h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 #preview h1, #preview h3 {

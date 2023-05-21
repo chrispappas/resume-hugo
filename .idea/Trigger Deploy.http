@@ -1,0 +1,1 @@
+POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/{{deploy-hook}}

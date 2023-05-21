@@ -11,3 +11,6 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# exclude intellij http client private env
+/http-client.private.env.json

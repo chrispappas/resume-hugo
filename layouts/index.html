@@ -3,14 +3,7 @@
     {{- .Content }}
 </main>
 <aside id="sidebar">
-    {{ $image := resources.Get "img/chris-pappas.jpg" }}
-    {{ $image := $image.Fit "320x320" }}
-    {{ with $image }}
-    <figure>
-        <img alt="Picture of Chris Pappas" src="{{ .RelPermalink}}"/>
-        <figcaption>This guy</figcaption>
-    </figure>
-    {{ end }}
+    {{ partial "picture.html" . }}
     {{ partial "home-sidebar.md" . | markdownify }}
 </aside>
 {{ end }}

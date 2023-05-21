@@ -7,4 +7,9 @@
     {{ partial "fonts.html" . }}
     {{ $style := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" type="text/css" />
+
+    <meta property="og:image" content="/preview_282x200.png" />
+    <meta property="og:title" content="Chris Pappas: About me and my work" />
+    <meta property="og:description" content="See my work, resume, professional interests, and projects" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
 </head>

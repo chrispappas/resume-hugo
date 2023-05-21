@@ -1,0 +1,8 @@
+{{ $image := resources.Get "img/chris-pappas.jpg" }}
+{{ $image := $image.Fit "320x320" }}
+{{ with $image }}
+<figure>
+    <img alt="Picture of Chris Pappas" src="{{ .RelPermalink}}"/>
+    <figcaption>This guy</figcaption>
+</figure>
+{{ end }}

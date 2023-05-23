@@ -1,5 +1,6 @@
 ## Links
 
+- [work@chrispappas.dev](mailto:work@chrispappas.dev)
 - [chrispappas.dev/resume](/resume/)
 - [linkedin.com/in/chris-pappas](https://linkedin.com/in/chris-pappas)
 - [github.com/chrispappas](https://github.com/chrispappas)

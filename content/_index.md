@@ -6,11 +6,25 @@ I call myself a **"full-stack software developer"** for a good reason! I am skil
 software development**, with a **decade+ of experience** in orgs both small and huge. My career has taken me to
 **incredible places**, and I have been fortunate to make so many **lasting connections** and friendships along the way.
 
+I love working with **CSS** and **JS/Typescript** to produce high-quality interfaces and **UX**, using **VueJS** and 
+**React** to bring my work to life. I employ back-end languages like **Golang**, **PHP**, and **NodeJS**, and frameworks 
+like **Laravel** to build, iterate, and serve traffic quickly. I use **Elasticsearch** for full-text indexing and 
+search, **MySQL** and **MS SQL Server**, **AWS DynamoDB**, and **Google BigQuery** databases, and **Redis** and 
+**Memcache** for caching. 
+
+For hosting and serving my content, I deploy Serverless apps to **AWS Lambda**, static sites
+generated using **Hugo** to **CloudFlare Pages**, and run **Linux** servers on **Linode** and **Digital Ocean**. I have
+also deployed and maintained applications running on **Kubernetes**, from CI systems like **Jenkins**, **Gitlab CI**, 
+**Github Actions**, and **Buildkite**. 
+
+I even love the challenge of working with the dark magic of complex **Regular Expressions**.
+
 I appreciate **well-formatted** and nicely documented **Git repos**, messages, pull requests, and issue descriptions. I
 love using code formatting tools that produce **well-formatted**, **consistent**, and **easy to read** sources. I value
-**automated testing** and the confidence and quality that results from using it well. I love working with **CSS** and 
-**Javascript** to produce high-quality interfaces and **UX**. I even love the challenge of working with the dark magic 
-of complex **Regular Expressions**.
+**automated testing** and the confidence and quality that results from using it well. 
+
+Writing this down has reminded me of _just how many_ things I've learned, and cool projects I've implemented and worked
+on throughout my career. [**What should I add next?**](mailto:work@chrispappas.dev)
 
 ## My Experience
 

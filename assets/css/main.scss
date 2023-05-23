@@ -103,6 +103,8 @@ footer {
   text-align: center;
 }
 
+@import "sidebar";
+
 .homepage {
   @import "homepage";
 }

@@ -1,6 +1,7 @@
 ## Contact Info
 
 - **Winnipeg, Canada**
+- [work@chrispappas.dev](mailto:work@chrispappas.dev)
 - [linkedin.com/in/chris-pappas](https://linkedin.com/in/chris-pappas)
 - [github.com/chrispappas](https://github.com/chrispappas)
 - [chrispappas.dev](https://github.com/chrispappas)
@@ -26,7 +27,9 @@ testing**, but I'm not a TDD zealot. My **Git history** is clean and well-commen
 **Pull Request** or **Issue Description** as much as a detailed **Readme file**. Updating **documentation** is something I have
 incorporated into my development cycle, and I have thanked myself many times for **_just writing it down_**.
 
-I love **solving new problems** and **fixing what’s broken**.
+I love **solving new problems** and **fixing what’s broken**. 
+
+What should I do **next?**
 
 ## Education
 

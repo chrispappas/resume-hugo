@@ -69,8 +69,6 @@ header {
   background-color: var(--header-bg-color);
   border-bottom: 1px solid #333;
 
-  @import 'theme-switcher';
-
   strong {
     font-weight: 700;
   }
@@ -103,6 +101,7 @@ footer {
   text-align: center;
 }
 
+@import "theme-switcher";
 @import "sidebar";
 
 .homepage {

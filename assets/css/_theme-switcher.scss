@@ -26,12 +26,12 @@
   .light-label:after {
     content: '☀️';
   }
+}
 
-  [data-theme="dark"] .theme-switch .light-label {
-    display: inline-block;
-  }
+[data-theme="dark"] .theme-switch .light-label {
+  display: inline-block;
+}
 
-  [data-theme="dark"] .theme-switch .dark-label {
-    display: none;
-  }
+[data-theme="dark"] .theme-switch .dark-label {
+  display: none;
 }

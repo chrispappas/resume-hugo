@@ -1,0 +1,57 @@
+#preview {
+  width: 520px;
+  height: 270px;
+  box-sizing: border-box;
+  padding: 0.66em 1em;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 120%;
+}
+
+#preview > div {
+  width: 100%;
+}
+
+#preview #top {
+  flex: 0 0 auto;
+}
+#preview #bottom {
+  flex: 1 0 0;
+  text-align: right;
+  min-width: 0;
+  display: block;
+  max-height: 54%;
+}
+
+#preview #bottom figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0;
+  height: 100%;
+}
+
+#preview #bottom figure img {
+  display: block;
+  object-fit: contain;
+  aspect-ratio: 830/669;
+  max-height: 100%;
+  clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+#preview #bottom figure figcaption {
+  font-size: 1em;
+  font-family: var(--font-accent);
+}
+
+#preview h1 {
+  font-size: 1.8em;
+}
+
+#preview h1, #preview h3 {
+  margin: 0 0 0.5em 0;
+}

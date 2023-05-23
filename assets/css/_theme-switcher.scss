@@ -1,0 +1,37 @@
+.theme-switch {
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  span:after {
+    margin-left: 0.33em;
+  }
+
+  .dark-label {
+    display: inline-block;
+  }
+
+  .dark-label:after {
+    content: '🌙';
+    background-color: navy;
+    border-radius: 100%;
+  }
+
+  .light-label {
+    display: none;
+  }
+
+  .light-label:after {
+    content: '☀️';
+  }
+
+  [data-theme="dark"] .theme-switch .light-label {
+    display: inline-block;
+  }
+
+  [data-theme="dark"] .theme-switch .dark-label {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(30) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+h1:after {
+  content: '\2588';
+  margin-left: 0.5em;
+  animation: blink 1s steps(2, end) 5;
+  animation-delay: 2.5s;
+  visibility: hidden;
+}
+
+@keyframes blink {
+  to {
+    visibility: visible;
+  }
+}

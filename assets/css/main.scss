@@ -1,0 +1,111 @@
+:root {
+  --color-accent: #2079c7;
+  --font-color: #202020;
+  --bold-color: #090909;
+  --bg-color: white;
+  --header-bg-color: #d9d9d9;
+}
+
+[data-theme="dark"] {
+  --color-accent: #2dd709;
+  --font-color: #d9d9d9;
+  --bold-color: #f0f0f0;
+  --bg-color: #090909;
+  --header-bg-color: #444;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+@import "typography";
+
+#content {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 2rem;
+}
+
+#main {
+
+}
+
+@media (min-width: 900px) {
+  #content {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    column-gap: 4rem;
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #content {
+    max-width: 1200px;
+  }
+}
+
+header {
+  font-family: var(--font-accent);
+  font-size: 0.9em;
+  line-height: 2;
+  white-space: nowrap;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: 0.35em 0 0.1em 0;
+  background-color: var(--header-bg-color);
+  border-bottom: 1px solid #333;
+
+  @import 'theme-switcher';
+
+  strong {
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  nav ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    flex: 0 1 auto;
+  }
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 1em 0;
+  margin: 2em auto 0 auto;
+  text-align: center;
+}
+
+.homepage {
+  @import "homepage";
+}
+
+@import "preview";
+@import "print";

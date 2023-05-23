@@ -1,0 +1,18 @@
+#sidebar ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#sidebar figure {
+  margin: 2em auto;
+}
+
+#sidebar figure img {
+  max-width: 100%;
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+#sidebar figure figcaption {
+  font-family: var(--font-accent);
+}
+

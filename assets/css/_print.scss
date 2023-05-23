@@ -1,0 +1,32 @@
+@media print {
+  body {
+    font-size: 10pt;
+  }
+
+  a:visited, a:active, a:link, a:hover {
+    color: var(--font-color);
+    text-decoration: none;
+  }
+
+  h1:before, h2:before {
+    display: none;
+  }
+
+  header, footer {
+    display: none;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    column-gap: 2em;
+  }
+
+  #main p {
+    text-align: justify;
+  }
+
+  #sidebar #contact-info + ul li:last-child {
+    display: none;
+  }
+}

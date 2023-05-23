@@ -1,0 +1,97 @@
+:root {
+  --font-body: 'Roboto', sans-serif;
+  --font-accent: 'Roboto Mono', sans-serif;
+}
+
+html, body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+}
+
+h1 {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 1.8em;
+  color: var(--color-accent);
+}
+
+// add "comment slashes" before each h1/h2 element
+h1:before, h2:before {
+  content: '//';
+  margin-right: 0.8em;
+  // fix kerning using letter-spacing
+  letter-spacing: -0.25em;
+}
+
+h1:before {
+  // tweak the spacing for the h1 slashes
+  margin-right: 0.5em;
+}
+
+h2 {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: var(--color-accent);
+  margin-top: 2rem;
+}
+
+h3 {
+  margin-top: 1.75em;
+  color: var(--bold-color);
+}
+
+h4 {
+  opacity: 90%;
+}
+
+h5 {
+  opacity: 66%;
+  font-weight: normal;
+}
+
+h3 + h4 {
+  padding-top: 0;
+  margin-top: -1em;
+}
+
+h4 + h5 {
+  padding-top: 0;
+  margin-top: -1em;
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+ul {
+  padding-left: 1.25em;
+
+  & > li {
+    margin-bottom: 0.25em;
+  }
+}
+
+strong {
+  font-weight: 500;
+  color: var(--bold-color);
+}
+
+a:visited, a:active, a:link, a:hover {
+  color: var(--font-color);
+}

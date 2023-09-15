@@ -5,16 +5,7 @@
 - [linkedin.com/in/chris-pappas](https://linkedin.com/in/chris-pappas)
 - [github.com/chrispappas](https://github.com/chrispappas)
 - [chrispappas.dev](https://github.com/chrispappas)
-- [PDF Format Resume](Chris_Pappas_Resume_May_2023.pdf)
-
-## Top Skills
-
-- Golang, PHP, Node, Laravel, Hugo
-- React, Vue, Typescript, GraphQL
-- SQL, Elasticsearch, DynamoDB
-- Git, DevOps, Kubernetes, Linux
-- Nginx, Apache, Varnish
-- DNS, Cloudflare, Hosting
+- [PDF Format Resume](Chris_Pappas_Resume.pdf)
 
 ## About Me
 
@@ -30,6 +21,15 @@ incorporated into my development cycle, and I have thanked myself many times for
 I love **solving new problems** and **fixing what’s broken**. 
 
 What should I do **next?**
+
+## Top Skills
+
+- Golang, PHP, Node, Laravel, Hugo
+- React, Vue, Typescript, GraphQL
+- SQL, Elasticsearch, DynamoDB
+- Git, DevOps, Kubernetes, Linux
+- Nginx, Apache, Varnish
+- DNS, Cloudflare, Hosting
 
 ## Education
 

@@ -10,7 +10,18 @@
 #sidebar figure img {
   max-width: 100%;
   clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  background: #eeeeee;
+  background: linear-gradient(0deg, #f0f0f0 0%, #cccccc 100%);
+
+  [data-theme="dark"] & {
+    background: #444444;
+    background: linear-gradient(0deg, #444444 0%, #222222 100%);
+    &.neo {
+      background: #444444 url('/matrix-bg.webp') no-repeat center center;
+    }
+  }
 }
+
 
 #sidebar figure figcaption {
   font-family: var(--font-accent);

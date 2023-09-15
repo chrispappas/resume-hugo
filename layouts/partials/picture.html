@@ -1,8 +1,8 @@
-{{ $image := resources.Get "img/chris-pappas.jpg" }}
+{{ $image := resources.Get "img/chris-pappas-nobg.png" }}
 {{ $image := $image.Fit "320x320" }}
 {{ with $image }}
 <figure>
-    <img alt="Picture of Chris Pappas" src="{{ .RelPermalink}}"/>
+    <img alt="Picture of Chris Pappas" src="{{ .RelPermalink}}" onclick="this.className = (this.className === 'neo' ? '' : 'neo')"/>
     <figcaption>This guy</figcaption>
 </figure>
 {{ end }}

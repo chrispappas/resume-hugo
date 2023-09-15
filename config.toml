@@ -1,3 +1,7 @@
 baseURL = '/'
 languageCode = 'en-ca'
 title = 'Chris Pappas: Full-Stack Software Developer'
+
+[markup]
+    [markup.goldmark.renderer]
+        unsafe=true

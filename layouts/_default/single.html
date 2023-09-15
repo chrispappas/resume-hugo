@@ -3,6 +3,7 @@
     {{- .Content }}
 </main>
 <aside id="sidebar">
+    {{ partial "picture.html" . }}
     {{ with .Resources.GetMatch "sidebar.md" }}
     {{ .Content }}
     {{ end }}

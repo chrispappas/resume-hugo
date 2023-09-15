@@ -2,11 +2,12 @@
 title: "Resume"
 date: 2023-05-18T22:46:00-05:00
 draft: false
+page_class: "resume"
 ---
 
 # Chris Pappas
 
-**Full Stack Developer** seeking a role working with **great people**, **interesting tech** and **solving valuable
+**Full Stack Developer** who loves working with **great people**, **interesting tech** and **solving valuable 
 problems**, and using my wide range of skills and experience as a **"force multiplier"** to help my **team succeed**. 
 
 I would appreciate the opportunity to chat more with you, about how my knowledge and abilities line up with what you're 
@@ -14,6 +15,22 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 [LinkedIn](https://linkedin.com/in/chris-pappas).
 
 ## Work Experience
+
+<div class="job">
+
+### Staff Engineer/Lead Developer - AgDealer.com
+#### Glacier FarmMedia, Winnipeg (Remote)
+##### Aug 2023 - Present
+
+- Boomeranged back as Tech Lead of the AgDealer.com website and backend data platform
+- Maintaining existing Laravel apps, Elasticsearch data store, ingestion tools, building new Vue and Nuxt based apps and features
+- Exploring new API development using Golang
+- Team mentor and product guidance based on my extensive experience with this platform
+
+##### Key Tech: PHP, Laravel, Elasticsearch, VueJS, Nuxt
+
+</div>
+<div class="job">
 
 ### Senior Production Engineer - Observability
 #### Shopify, Remote
@@ -29,6 +46,9 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 
 ##### Key Tech: Golang, React, Typescript, GraphQL, MySQL, BigQuery, Grafana, Prometheus, Kafka, Kubernetes
 
+</div>
+<div class="job">
+
 ### Senior Software Engineer
 #### APOLLO Insurance, Remote
 ##### Jul 2021 - Oct 2021
@@ -39,6 +59,9 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 - Cross-functional team including Product Managers, Design, Development, Underwriting and Policy
 
 ##### Key Tech: NodeJS, AWS Lambda, DynamoDB, React
+
+</div>
+<div class="job">
 
 ### Staff Software Engineer
 #### Glacier FarmMedia, Winnipeg, Canada
@@ -55,6 +78,9 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 
 ##### Key Tech: PHP, Laravel, Elasticsearch, MS SQL Server, VueJS, AWS Lambda
 
+</div>
+<div class="job">
+
 ### Senior Developer Team Lead
 #### Bold Commerce, Winnipeg, Canada
 ##### May 2016 - Nov 2017
@@ -62,6 +88,9 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 - Team lead for E-commerce R&D Projects using Youtube video player with Mithril and Vuejs based overlay
 - Laravel/PHP REST API development using MySQL
 - Kubernetes and CI DevOps for production and staging deployments
+
+</div>
+<div class="job">
 
 ### Associate Manager
 #### IG Wealth Management, Winnipeg, Canada
@@ -71,6 +100,9 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
 - Content management for the main corporate website, investor relations site and large-scale employee intranet sites
 - Custom application development using Angular and VueJS
 
+</div>
+<div class="job">
+
 ### Front-End Web Developer
 #### Tipping Canoe, Winnipeg, Canada
 ##### Aug 2011 - Oct 2014
@@ -79,3 +111,5 @@ looking for. Please reach out at [work@chrispappas.dev](mailto:work@chrispappas.
   including HotUKDeals.com
 - Developed and implemented a full SASS component library for the UI and UX of HotUKDeals, used by myself and the
   implementation team to rebuild and redesign the site
+
+</div>

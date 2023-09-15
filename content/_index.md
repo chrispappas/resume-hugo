@@ -30,6 +30,17 @@ on throughout my career. [**What should I add next?**](mailto:work@chrispappas.d
 
 [Check out my full professional resume!](/resume/)
 
+### Team Lead/Staff Developer at Glacier FarmMedia and AgDealer.com
+
+I recently boomeranged back to GFM to pick up where I left off, as the **Tech Lead/Staff Engineer** for
+**[AgDealer.com](https://agdealer.com)**, a leading Ag Equipment buy-and-sell publication and website. This is truly a
+**"full-stack"** job, where I lead the dev team building everything including the **Elasticsearch** ingest pipeline,
+image thumbnail and watermarking **AWS Lambda** utility, **RDS MS SQL Server** databases, **PHP Laravel** app
+and job queue runners, **VueJS** frontend, and multiple admin applications and APIs. I even did a little bit of
+**Coldfusion** stuff for that "old-school" cred.
+
+##### _**Key Tech**: PHP, Laravel, VueJS, Elasticsearch, MS SQL Server, AWS Lambda, NodeJS_
+
 ### Senior Production Engineer at Shopify
 
 In my most recent position at **[Shopify](https://www.shopify.com)**, I worked in **Production Engineering** on the
@@ -45,16 +56,5 @@ and **Google PubSub**. All deployed to **Kubernetes** on **Google Cloud Platform
 **Docker**, and **Git**.
 
 ##### _**Key Tech**: Golang, React, Typescript, GraphQL, MySQL, BigQuery, Grafana, Prometheus, Kafka_
-
-### Staff Developer at Glacier FarmMedia and AgDealer.com
-
-Previously, I was a **Staff Developer** and ran the website infrastructure and development team for
-**[AgDealer.com](https://agdealer.com)**, a leading Ag Equipment buy-and-sell publication and website. This was truly a
-**"full-stack"** job, where I led the dev team building everything including the **Elasticsearch** ingest pipeline,
-image thumbnail and watermarking **AWS Lambda NodeJS** utility, **RDS MS SQL Server** databases, **PHP Laravel** app
-and job queue runners, **VueJS** frontend, and multiple admin applications and APIs. I even did a little bit of
-**Coldfusion** stuff for that "old-school" cred.
-
-##### _**Key Tech**: PHP, Laravel, VueJS, Elasticsearch, MS SQL Server, AWS Lambda, NodeJS_
 
 I have also worked in many other roles and done a lot of interesting stuff, all [detailed in my resume](/resume/).

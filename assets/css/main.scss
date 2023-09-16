@@ -119,3 +119,25 @@ footer {
 
 @import "preview";
 @import "print";
+
+.fourohfour h3 {
+  .dark-message {
+    display: none
+  }
+
+  .light-message {
+    display: block;
+  }
+}
+
+[data-theme="dark"] {
+  .fourohfour h3 {
+    .dark-message {
+      display: block;
+    }
+
+    .light-message {
+      display: none;
+    }
+  }
+}

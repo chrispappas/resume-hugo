@@ -41,15 +41,15 @@ h2 {
 
 h3 {
   margin-top: 1.75em;
-  color: var(--bold-color);
+  color: var(--header-dark-color);
 }
 
 h4 {
-  opacity: 90%;
+  color: var(--header-med-color);
 }
 
 h5 {
-  opacity: 66%;
+  color: var(--header-light-color);
   font-weight: normal;
 }
 

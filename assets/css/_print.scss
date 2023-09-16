@@ -1,4 +1,12 @@
 @media print {
+  :root {
+    --font-color: black;
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: var(--font-color)
+  }
+
   body {
     font-size: 10pt;
   }

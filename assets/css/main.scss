@@ -4,6 +4,9 @@
   --bold-color: #090909;
   --bg-color: white;
   --header-bg-color: #d9d9d9;
+  --header-dark-color: var(--bold-color);
+  --header-med-color: #333333;
+  --header-light-color: #555555;
 }
 
 @media not print {
@@ -13,6 +16,9 @@
     --bold-color: #f0f0f0;
     --bg-color: #090909;
     --header-bg-color: #444;
+    --header-dark-color: var(--bold-color);
+    --header-med-color: #cccccc;
+    --header-light-color: #aaaaaa;
   }
 }
 
